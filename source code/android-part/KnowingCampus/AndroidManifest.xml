@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.knowingcampus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/knowingcampus"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        
+        <activity
+            android:name="com.knowingcampus.login.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.knowingcampus.mainview.FrameMain"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
+            android:name="com.knowingcampus.campusbbs.CampusBBS"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.knowingcampus.campusbbs.MyCircle"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.knowingcampus.campusbbs.PublicStates"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.knowingcampus.campusbbs.Status_Comment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.knowingcampus.campusbbs.PublicComment"
+            android:label="@string/app_name" >
+        </activity>
+       
+        <activity
+            android:name="com.knowingcampus.library.Library"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.knowingcampus.news.NewsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.knowingcampus.blackboard.Blackboard"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.knowingcampus.lostandfound.LostAndFound"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.knowingcampus.secondhandmarket.SecondHandMarket"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.knowingcampus.datashare.QueryGetUser"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>

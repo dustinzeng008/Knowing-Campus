@@ -1,0 +1,64 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="CustomActionBarTheme" parent="android:style/Theme.Holo.Light"> 
+        <item name="android:actionBarStyle">@style/Widget.Slider.ActionBar</item>
+    	<item name="android:actionBarTabStyle">@style/Widget.Slider.ActionBarTab</item>
+    	<item name="android:homeAsUpIndicator">@drawable/biz_widget_left</item> 
+        <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
+        <item name="android:spinnerDropDownItemStyle">@style/YourCustomDropDownItemStyle</item>
+    </style>
+
+    
+    <style name="Widget.Slider.ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">  
+        <item name="android:background">@color/list_background_pressed</item>     
+        <item name="android:backgroundStacked">#ffeeeeee</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Slider.Widget.ActionBar.Titlen</item>
+    </style>
+    
+     <style name="Widget.Slider.ActionBarTab" parent="android:style/Widget.Holo.Light.ActionBar.TabView">       
+        <item name="android:background">@drawable/tab_indicator</item>
+        <item name="android:minWidth">20dp</item>
+    </style>
+
+ 
+   <style name="TextAppearance.Slider.Widget.ActionBar.Titlen" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+       <item name="android:textColor">#eeeeee</item>
+       <item name="android:textSize">20sp</item>
+    </style>
+    
+   
+  
+    
+     <!-- 下拉导航内部按钮的样式 -->
+     <style name="MyDropDownListView" parent="android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:background">@color/deep_gray</item>
+    </style>
+    
+     <style name="YourCustomDropDownItemStyle" parent="android:style/Widget.Holo.DropDownItem.Spinner">
+    	<item name="android:textAppearance">@style/YourCustomDropDownItemTextStyle</item>
+	</style>
+	
+    <style name="YourCustomDropDownItemTextStyle" parent="@android:style/TextAppearance.Holo.Widget">
+    	<item name="android:textColor">@color/white</item>
+    	<item name="android:textSize">20sp</item>
+	</style>
+     
+    
+</resources>

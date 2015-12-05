@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1ece7">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mylibrarybookdetail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Linux程序设计"
+        android:textColor="#992416"
+        android:textSize="22sp" />
+
+    <!-- 借出状态 -->
+    <LinearLayout style="@style/leba_bg_layout" >
+        <LinearLayout style="@style/leba_bg_single_layout" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="归还状态: "
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/mylibrarybookdetail_ifborrowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="借出"
+                android:textColor="#f6aa3e"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 借阅时间		应还时间 -->
+    
+    <LinearLayout style="@style/leba_bg_layout" >
+        <!-- 借阅时间 -->
+        <LinearLayout style="@style/leba_bg_top_layout" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="借阅时间:"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/mylibrarybookdetail_borrowtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="2014-02-27 10:53"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@drawable/leba_shape_line" />
+
+        <!-- 应还时间 -->
+        <LinearLayout style="@style/leba_bg_bottom_layout" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="应还时间:"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/mylibrarybookdetail_returntime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="2014-02-27 10:53"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- ISBN	作者		出版社	出版日期 -->
+    
+    <LinearLayout style="@style/leba_bg_layout" >
+        <!-- ISBN -->
+        <LinearLayout style="@style/leba_bg_top_layout" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="ISBN:"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/mylibrarybookdetail_isbn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="9787121194856"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@drawable/leba_shape_line" />
+
+        <!-- 作者 -->
+        <LinearLayout style="@style/leba_bg_mid_layout" >
+            
+            <TextView
+                android:id="@+id/mylibrarybookdetail_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="Reto Meier (作者), 佘建伟 (译者), 赵凯 (译者)"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@drawable/leba_shape_line" />
+        
+        <!-- 出版社 -->
+        <LinearLayout style="@style/leba_bg_mid_layout" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="出版社:"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/mylibrarybookdetail_pressname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="清华大学出版社"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@drawable/leba_shape_line" />
+
+        <!-- 出版日期 -->
+        <LinearLayout style="@style/leba_bg_bottom_layout" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="出版日期:"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/mylibrarybookdetail_publictime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="2013年4月1日"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+ 
+    <!-- 图书描述 -->
+    <LinearLayout style="@style/leba_bg_layout" >
+        <LinearLayout style="@style/leba_bg_single_layout" >
+            <TextView
+                android:id="@+id/mylibrarybookdetail_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="图书描述:\n由Android权威专家编写，涵盖了所有最新的内容，是学习使用Android 4 SDK开发移动应用程序的理想指南"
+                android:textColor="#ff333333"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

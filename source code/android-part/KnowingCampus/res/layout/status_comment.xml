@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f1ece7"
+    android:padding="20px">
+    
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="20px"
+    android:background="@drawable/card_radius_bg">
+     
+    <RelativeLayout 
+        android:id="@+id/status_card_item_rltop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        
+        <com.android.volley.toolbox.NetworkImageView 
+        android:id="@+id/statuscomment_pic" 
+        android:layout_width="55dp"
+		android:layout_height="55dp"
+		android:layout_alignParentLeft="true"
+		android:focusable="false"/>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/statuscomment_pic"
+            android:layout_marginLeft="15dp">
+            <TextView  
+        	android:id="@+id/statuscomment_name"  
+        	android:layout_width="wrap_content"  
+        	android:layout_height="wrap_content" 
+        	android:textColor="#000000"
+        	android:textSize="20sp"/>  
+        
+    		<TextView 
+        	android:id="@+id/statuscomment_publictime"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="10dp"
+        	android:textColor="#aaaaaa"/>
+        </LinearLayout>    
+    </RelativeLayout>
+   
+    <TextView  
+        android:id="@+id/statuscomment_content"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_below="@id/status_card_item_rltop"   
+        android:layout_marginTop="10dp"      
+        android:textSize="16sp"/>
+   
+</RelativeLayout>
+
+    <ListView
+        android:id="@+id/statuscomment_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"       
+        android:scrollbarStyle="outsideOverlay"/>
+
+</LinearLayout>

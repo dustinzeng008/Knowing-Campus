@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1ece7">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1ece7"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.android.volley.toolbox.NetworkImageView 
+        	android:id="@+id/querygetuser_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+      
+        <TextView 
+            android:id="@+id/querygetuser_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="25sp"
+            android:text="Laughing"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Major "/>
+        <TextView 
+        android:id="@+id/querygetuser_major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textSize="16dp"
+        android:textColor="#aaa"
+        android:text="Computer Science"/>
+    </LinearLayout>
+    
+    <TextView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="0.1dp"
+    	android:background="#C0C0C0"
+    	android:layout_marginTop="10dp"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Enter Year "/>
+        <TextView 
+        android:id="@+id/querygetuser_enteryear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textSize="16dp"
+        android:textColor="#aaa"
+        android:text="2012"/>
+    </LinearLayout>
+    
+    <TextView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="0.1dp"
+    	android:background="#C0C0C0"
+    	android:layout_marginTop="10dp"/>
+    
+  <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="What's Up "/>
+        <TextView 
+        android:id="@+id/querygetuser_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textSize="16dp"
+        android:textColor="#aaa"
+        android:text="hahahhahahahhahahhahhahahahhhahahhahahahhhahahahhahahah"/>
+    </LinearLayout>
+    
+    <TextView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="0.1dp"
+    	android:background="#C0C0C0"
+    	android:layout_marginTop="10dp"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:textColor="#e79429"
+        android:text="Contacts "/>
+    <TextView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="0.1dp"
+    	android:background="#C0C0C0"
+    	android:layout_marginTop="10dp"/>
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="e-mail"/>
+        <TextView 
+        android:id="@+id/querygetuser_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textSize="16dp"
+        android:textColor="#aaa"
+        android:text="zy084232@163.com"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Phone"/>
+        <TextView 
+        android:id="@+id/querygetuser_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textSize="16dp"
+        android:textColor="#aaa"
+        android:text="15679167436"/>
+    </LinearLayout>
+   
+</LinearLayout>
+</ScrollView>
