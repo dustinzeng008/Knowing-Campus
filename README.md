@@ -12,17 +12,17 @@
 
 #### &emsp;&emsp; System architecture diagram
 
-<div align=center><img src="Diagram/KnowingCampus whole architecture.pdf" width="300px" height="400" alt="Info"/></div>
-<div align=center><img src="Diagram/knowingcampus technique architecture.pdf" width="420px" height="300" alt="Info"/></div>
+<div align=center><img src="Diagram/KnowingCampus whole architecture.png" width="300px" height="400" alt="Info"/></div>
+<div align=center><img src="Diagram/knowingcampus technique architecture.png" width="420px" height="300" alt="Info"/></div>
 
 #### &emsp;&emsp; System use case Diagram
 <div align=center><img src="Diagram/use-case/system use case.png" width="300px" height="360" alt="Info"/></div>
 
 #### &emsp;&emsp; Campus BBS sequence diagram
-<div align=center><img src="Diagram/UML-Sequence Campus BBS.pdf" width="600px" height="600" alt="Info"/></div>
+<div align=center><img src="Diagram/UML-Sequence Campus BBS.png" width="600px" height="600" alt="Info"/></div>
 
 #### &emsp;&emsp; Conceptual database design diagram
-<div align=center><img src="Diagram/Conceptual database design.pdf" width="500px" height="460" alt="Info"/></div>
+<div align=center><img src="Diagram/Conceptual database design.png" width="500px" height="460" alt="Info"/></div>
 
 ### 3. ScreenShots<hr>
 #### &emsp;&emsp; Main Interface
