@@ -1,5 +1,5 @@
 ## Knowing-Campus
-###1. IntroductionKnowing campus is used to help student solve different campus problems, it includes six modules:
+###1. Introduction<hr>Knowing campus is used to help student solve different campus problems, it includes six modules:
 <li>Mobile Library: 
 > In this module, student can search books and view the details of the book they searched. What’s more, student can check their borrow list and receive dealine alert message.</li><li>Blackboard: 
 >> In this module, the system will import the course table for every student, and student can look the details (such as syllabus & homework) of this course.</li><li>Campus BBS: 
@@ -7,7 +7,8 @@
 >>>> This module is designed to help students to find lost goods.</li><li>Second-Hand Market: 
 >>>>> This module provides a platform for students to find and sell second-hand product.</li><li>Campus News:
 >>>>>>In this module, students could view different kinds campus news and receive notifications.</li>
-### 2. Diagram
+
+### 2. Diagram<hr>
 
 #### &emsp;&emsp; System architecture diagram
 
@@ -23,7 +24,7 @@
 #### &emsp;&emsp; Conceptual database design diagram
 <div align=center><img src="Diagram/Conceptual database design.pdf" width="500px" height="460" alt="Info"/></div>
 
-### 3. ScreenShots
+### 3. ScreenShots<hr>
 #### &emsp;&emsp; Main Interface
 <div align=center><img src="screenshots/main interface.png" width="260px" height="400" alt="Info"/></div>
 
